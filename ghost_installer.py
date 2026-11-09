@@ -18,7 +18,7 @@ FONT = "Consolas" if sys.platform.startswith("win") else "DejaVu Sans Mono"
 UA = {"User-Agent": "ghost-installer"}
 # Where the newest jar lives. For a GitHub repo use: https://github.com/USER/REPO/releases/latest/download/ghost-26.2.jar
 # You can also put the URL alone in a file called update_url.txt next to the exe (no rebuild needed).
-UPDATE_URL = ""
+UPDATE_URL = "https://github.com/petrusbering3-ship-it/ghost-client/raw/main/ghost-26.2.jar"
 
 
 def update_url():
